@@ -1,0 +1,28 @@
+work_dir: ./work_dir/OAD/
+
+loader: tools.loader.Loader
+train_loader_args:
+  data_path: ./data/OAD/oad_train_data.npy
+  label_path: ./data/OAD/oad_train_label.pkl
+test_loader_args:
+  data_path: ./data/OAD/oad_val_data.npy
+  label_path: ./data/OAD/oad_val_label.pkl
+
+model: network.stgcn_swmv.Model
+model_args:
+  in_channels: 3
+  num_class: 11
+  dropout: 0.5
+  edge_importance_weighting: True
+  graph_args:
+    layout: 'skeleton_layout'
+    strategy: 'spatial'
+
+weight_decay: 0.0001
+base_lr: 0.1
+step: [100,500,1000,1500,2000]
+
+device: [0]
+batch_size: 64
+test_batch_size: 1
+num_epoch: 5000

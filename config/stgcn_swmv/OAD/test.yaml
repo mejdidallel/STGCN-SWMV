@@ -1,0 +1,20 @@
+weights: ./weights/OAD/oad_model.pt
+
+loader: tools.loader.Loader
+test_loader_args:
+  data_path: ./data/OAD/oad_test_data.npy
+  label_path: ./data/OAD/oad_test_label.pkl
+
+model: network.stgcn_swmv.Model
+model_args:
+  in_channels: 3
+  num_class: 11
+  dropout: 0.5
+  edge_importance_weighting: True
+  graph_args:
+    layout: 'skeleton_layout'
+    strategy: 'spatial'
+ 
+phase: test
+device: 0
+test_batch_size: 1
