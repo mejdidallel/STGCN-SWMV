@@ -2,7 +2,7 @@
 
 # STGCN-SWMV
 
-This is the code, data repository and pre-trained models for our work : **A Sliding Window Based Approach With Double Majority Voting for Online Human Action Recognition using Spatial Temporal Graph Convolutional Neural Networks**.
+This is the code, data repository and pre-trained models for our work : **A Sliding Window Based Approach With Majority Voting for Online Human Action Recognition using Spatial Temporal Graph Convolutional Neural Networks**.
 
 ## Introduction
 
@@ -115,11 +115,5 @@ If you any questions or problems regarding the code, please contact us at : <mej
 ## Citation
 To cite this work, please use:
 ``` 
-@InProceedings{stgcn_swmv,  
-author = {Mejdi Dallel, Vincent Havard, David Baudry and Yohan Dupuis},  
-journal = {Conference on Information Sciences and Systems (CISS) 2022},
-title = {A Sliding Window Based Approach With Double Majority Voting for Online Human Action Recognition using Spatial Temporal Graph Convolutional Neural Networks},   
-year = {2022},    
-pages = {1-6}
-}
+Citation will be updated once our paper get accepted.
 ```
