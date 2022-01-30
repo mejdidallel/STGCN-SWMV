@@ -1,5 +1,3 @@
-#### Paper Title: A Sliding Window Based Approach With Majority Voting for Online Human Action Recognition using Spatial Temporal Graph Convolutional Neural Networks
-
 # STGCN-SWMV
 
 This is the code, data repository and pre-trained models for our work : **A Sliding Window Based Approach With Majority Voting for Online Human Action Recognition using Spatial Temporal Graph Convolutional Neural Networks**.
