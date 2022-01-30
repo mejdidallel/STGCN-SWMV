@@ -1,3 +1,6 @@
+# CISS 2021
+#### Paper Title: A Sliding Window Based Approach With Double Majority Voting for Online Human Action Recognition using Spatial Temporal Graph Convolutional Neural Networks
+
 # STGCN-SWMV
 
 This is the code, data repository and pre-trained models for our work : **A Sliding Window Based Approach With Double Majority Voting for Online Human Action Recognition using Spatial Temporal Graph Convolutional Neural Networks**.
@@ -38,17 +41,17 @@ Here are our results using the STGCN-SWMV method on the OAD and UOW online skele
 
 | Actions | Results | 
 |:-------:|:-------:|
-| Drinking | 0.920 |
-| Eating | 0.962 |
-| Writing | 0.918 |
-| Opening cupboard | 0.833 |
-| Washing hands | 0.750 |
+| Drinking | 0.979 |
+| Eating | 1.000 |
+| Writing | 0.993 |
+| Opening cupboard | 1.000 |
+| Washing hands | 1.000 |
 | Opening microwave | 0.963 |
-| Sweeping | 0.895 |
-| Gargling | 0.857 |
-| Trowing trash | 0.860 |
-| Wiping | 0.855 |
-| **Overall** | **0.953** |
+| Sweeping | 0.996 |
+| Gargling | 0.984 |
+| Trowing trash | 0.949 |
+| Wiping | 0.973 |
+| **Overall** | **0.954** |
 
 **UOW:**
 <p align="center">
@@ -57,26 +60,26 @@ Here are our results using the STGCN-SWMV method on the OAD and UOW online skele
 
 | Actions | Results | 
 |:-------:|:-------:|
-| High arm wave | 1.000 |
-| Horizontal arm wave | 1.000 |
-| Hammer | 0.846 |
-| Hand catch | 1.000 |
-| Forward punch | 1.000 |
-| High Throw | 0.964 |
-| Draw X | 0.912 |
-| Draw Tick | 0.872 |
+| High arm wave | 0.892 |
+| Horizontal arm wave | 0.971 |
+| Hammer | 1.000 |
+| Hand catch | 0.857 |
+| Forward punch | 0.929 |
+| High Throw | 0.900 |
+| Draw X | 0.969 |
+| Draw Tick | 1.000 |
 | Draw circle | 0.952 |
 | Hand clap | 0.966 |
 | Two Hand wave | 1.000 |
 | Side boxing | 0.972 |
-| Bend | 0.927 |
-| Forward kick | 0.857 |
-| Side kick | 0.897 |
-| Jogging | 0.943 |
-| Tennis swing | 0.950 |
+| Bend | 1.000 |
+| Forward kick | 0.900 |
+| Side kick | 1.000 |
+| Jogging | 1.000 |
+| Tennis swing | 0.974 |
 | Tennis serve | 0.953 |
-| Golf swing | 0.957 |
-| Pick up and Throw | 0.868 |
+| Golf swing | 0.917 |
+| Pick up and Throw | 0.917 |
 | **Overall** | **0.934** |
 
 ## Test models
@@ -113,5 +116,11 @@ If you any questions or problems regarding the code, please contact us at : <mej
 ## Citation
 To cite this work, please use:
 ``` 
-Citation will be added one our paper is accepted.
+@InProceedings{stgcn_swmv,  
+author = {Mejdi Dallel, Vincent Havard, Mickael Delamare, David Baudry and Yohan Dupuis},  
+journal = {Conference on Information Sciences and Systems (CISS) 2022},
+title = {A Sliding Window Based Approach With Double Majority Voting for Online Human Action Recognition using Spatial Temporal Graph Convolutional Neural Networks},   
+year = {2022},    
+pages = {1-6}
+}
 ```
