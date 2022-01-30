@@ -1,5 +1,4 @@
-# CISS 2021
-#### Paper Title: A Sliding Window Based Approach With Double Majority Voting for Online Human Action Recognition using Spatial Temporal Graph Convolutional Neural Networks
+#### Paper Title: A Sliding Window Based Approach With Majority Voting for Online Human Action Recognition using Spatial Temporal Graph Convolutional Neural Networks
 
 # STGCN-SWMV
 
@@ -36,7 +35,7 @@ Here are our results using the STGCN-SWMV method on the OAD and UOW online skele
 
 **OAD:**
 <p align="center">
-	<img src="rsc/OAD Confusion Matrix.png" alt="OAD Confusion Matrix">
+	<img src="rsc/OAD Confusion Matrix.png" alt="OAD_Confusion_Matrix">
 </p>
 
 | Actions | Results | 
@@ -55,7 +54,7 @@ Here are our results using the STGCN-SWMV method on the OAD and UOW online skele
 
 **UOW:**
 <p align="center">
-	<img src="rsc/UOW Confusion Matrix.png" alt="UOW Confusion Matrix">
+	<img src="rsc/UOW Confusion Matrix.png" alt="UOW_Confusion_Matrix">
 </p>
 
 | Actions | Results | 
@@ -117,7 +116,7 @@ If you any questions or problems regarding the code, please contact us at : <mej
 To cite this work, please use:
 ``` 
 @InProceedings{stgcn_swmv,  
-author = {Mejdi Dallel, Vincent Havard, Mickael Delamare, David Baudry and Yohan Dupuis},  
+author = {Mejdi Dallel, Vincent Havard, David Baudry and Yohan Dupuis},  
 journal = {Conference on Information Sciences and Systems (CISS) 2022},
 title = {A Sliding Window Based Approach With Double Majority Voting for Online Human Action Recognition using Spatial Temporal Graph Convolutional Neural Networks},   
 year = {2022},    
