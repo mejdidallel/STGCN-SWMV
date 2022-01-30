@@ -35,7 +35,7 @@ Here are our results using the STGCN-SWMV method on the OAD and UOW online skele
 
 **OAD:**
 <p align="center">
-	<img src="rsc/OAD Confusion Matrix.png" alt="OAD_Confusion_Matrix">
+	<img src="rsc/OAD_Confusion_Matrix.png" alt="OAD Confusion Matrix">
 </p>
 
 | Actions | Results | 
@@ -54,7 +54,7 @@ Here are our results using the STGCN-SWMV method on the OAD and UOW online skele
 
 **UOW:**
 <p align="center">
-	<img src="rsc/UOW Confusion Matrix.png" alt="UOW_Confusion_Matrix">
+	<img src="rsc/UOW_Confusion_Matrix.png" alt="UOW Confusion Matrix">
 </p>
 
 | Actions | Results | 
